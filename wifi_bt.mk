@@ -8,7 +8,7 @@
 # Broadcom:
 #           rk90x,
 #           ap6xxx,
-#           ap6xxx_gps,      like ap6476
+#           ap6xxx_gps,      #like ap6476
 #
 # for mtk wifi, bt
 # MediaTek: 
@@ -18,17 +18,25 @@
 # for realtek wifi, bt & rda587x bt
 # RealTek:    
 #         
-#           rtl81xx          only wifi
-#           rtl872x
-#           rtl872xU
-#           rtl81xx_rda587x
-#           mt6622          like rtl8188+mt6622 
+#           rtl81xx,         #only wifi
+#           rtl8723as,       #like  rtl8723as sdio
+#           rtl8723bs,       #like  rtl8723bs sdio
+#           rtl8723au,       #like  rtl8723au usb
+#           rtl8723bu,       #like  rtl8723bu usb
+#           rda587x,         #like  rtl8188+rda587x
+#           mt6622,          #like  rtl8188+mt6622 
 #
 # for Espressif wifi & Beken bt
-#espressif:
-#           esp8089_bk3515
-#           esp8089          only wifi
-#           mt6622           esp8089+mt6622
+# Espressif:
+#           esp8089_bk3515,
+#           esp8089,         #only wifi
+#           mt6622,          #like esp8089+mt6622
+#           rda587x,         #like esp8089+rda587x
 #
-BOARD_CONNECTIVITY_VENDOR := espressif
+# MediaTek_mt7601:
+#	    mt7601           #only wifi
+#           rda587x,         #like  rtl8188+rda587x
+#           mt6622,          #like  rtl8188+mt6622 
+#
+BOARD_CONNECTIVITY_VENDOR := Espressif
 BOARD_CONNECTIVITY_MODULE := esp8089
