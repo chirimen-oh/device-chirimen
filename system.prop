@@ -31,7 +31,8 @@ sys.rkadb.root=0
 ro.sf.fakerotation=false
 ro.sf.hwrotation=0
 ro.rk.MassStorage=false
-ro.rk.systembar.voiceicon=false
+#$_rbox_$_modify_$_by cx,open systembar voice control button
+ro.rk.systembar.voiceicon=true
 ro.rk.systembar.tabletUI=false
 wifi.interface=wlan0
 ro.tether.denied=false
