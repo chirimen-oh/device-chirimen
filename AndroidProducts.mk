@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/rk3066.mk
+	$(LOCAL_DIR)/chirimen.mk

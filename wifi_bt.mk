@@ -38,5 +38,6 @@
 #           rda587x,         #like  rtl8188+rda587x
 #           mt6622,          #like  rtl8188+mt6622 
 #
-BOARD_CONNECTIVITY_VENDOR := Espressif
-BOARD_CONNECTIVITY_MODULE := esp8089
+# XXX
+BOARD_CONNECTIVITY_VENDOR := Broadcom
+BOARD_CONNECTIVITY_MODULE := ap6xxx
