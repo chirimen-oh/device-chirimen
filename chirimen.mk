@@ -16,3 +16,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rk.small_screen = true \
     ro.product.ota.host = www.rockchip.com:2300
 
+PRODUCT_PACKAGES += \
+    i2cdetect \
+    i2cdump \
+    i2cget \
+    i2cset
