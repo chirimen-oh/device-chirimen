@@ -4,7 +4,7 @@ $(call inherit-product, device/rockchip/rksdk/device.mk)
 PRODUCT_BRAND := MozOpenHard
 PRODUCT_DEVICE := chirimen
 PRODUCT_NAME := chirimen
-PRODUCT_MANUFACTURER := Mozilla Japan
+PRODUCT_MANUFACTURER := MozOpenHard
 PRODUCT_MODEL := CHIRIMEN
 
 # Get the long list of APNs
