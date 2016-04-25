@@ -1,10 +1,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 include device/rockchip/chirimen/BoardConfig.mk
 $(call inherit-product, device/rockchip/rksdk/device.mk)
-PRODUCT_BRAND := MozOpenHard
-PRODUCT_DEVICE := chirimen
-PRODUCT_NAME := chirimen
-PRODUCT_MANUFACTURER := MozOpenHard
+PRODUCT_BRAND := CHIRIMEN
+PRODUCT_DEVICE := CHIRIMEN
+PRODUCT_NAME := CHIRIMEN
+PRODUCT_MANUFACTURER := CHIRIMEN Open Hardware
 PRODUCT_MODEL := CHIRIMEN
 
 # Get the long list of APNs
