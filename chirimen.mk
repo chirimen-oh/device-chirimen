@@ -2,10 +2,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 include device/rockchip/chirimen/BoardConfig.mk
 $(call inherit-product, device/rockchip/rksdk/device.mk)
 PRODUCT_BRAND := CHIRIMEN
-PRODUCT_DEVICE := CHIRIMEN
-PRODUCT_NAME := CHIRIMEN
+PRODUCT_DEVICE := chirimen
+PRODUCT_NAME := chirimen
 PRODUCT_MANUFACTURER := CHIRIMEN Open Hardware
-PRODUCT_MODEL := CHIRIMEN
+PRODUCT_MODEL := chirimen
 
 # Get the long list of APNs
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/apns-full-conf.xml:system/etc/apns-conf.xml
