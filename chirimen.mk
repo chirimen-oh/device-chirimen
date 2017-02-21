@@ -11,6 +11,9 @@ PRODUCT_MODEL := chirimen
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/spn-conf.xml:system/etc/spn-conf.xml
 
+PRODUCT_COPY_FILES += \
+    device/rockchip/chirimen/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.version = 1.0.0 \
     ro.rk.small_screen = true \
